@@ -36,14 +36,13 @@ while True:
         print("Você perdeu!")
         computer_points = computer_points + 1
     
-    print("Sua pontuação: " + str(user_points))
-    print("Pontuação do Computador: " + str(computer_points))
+print("Sua pontuação: " + str(user_points))
+print("Pontuação do Computador: " + str(computer_points))
 
-    if computer_points > user_points:
-        print("Derrota!!!")
-    elif computer_points == user_points:
-        print("Empate!!!")
-    else:
-        print("Vitória!!!")
+if computer_points > user_points:
+    print("Derrota!!!")
+elif computer_points == user_points:
+    print("Empate!!!")
+else:
+    print("Vitória!!!")
     
-print ("Goodbye!")
