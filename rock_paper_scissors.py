@@ -12,6 +12,8 @@ while True:
     if user_choice == 'q':
         break
 
+    if user_choice in options:
+
     computer_choice = random.randint(0, 2)
     # 0 : R, 1 : T, 2 : P
     computer_option = options[computer_choice]
@@ -33,5 +35,14 @@ while True:
         print("Você perdeu!")
         computer_points = computer_points + 1
     
+    print("Sua pontuação: " + str(user_points))
+    print("Pontuação do Computador: " + str(computer_points))
 
+    if computer_points > user_points:
+        print("Derrota!!!")
+    elif computer_points == user_points:
+        print("Empate!!!")
+    else:
+        print("Vitória!!!")
+    
 print ("Goodbye!")
