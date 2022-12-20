@@ -10,6 +10,6 @@ while True:
         break
 
     computer_choice = random.randint(0, 2)
-    #
+    # 0 : R, 1 : T, 2 : P
 
 print ("Goodbye!")
