@@ -18,13 +18,13 @@ while True:
 
     if user_choice == computer_option:
         print("Empate!")
-    elif user_choice == "r" and computer_option == "t"
+    elif user_choice == "r" and computer_option == "t":
         print("Você ganhou!")
         user_points = user_points + 1
-    elif user_choice == "p" and computer_option == "r"
+    elif user_choice == "p" and computer_option == "r":
         print("Você ganhou!")
         user_points = user_points + 1
-    elif user_choice == "r" and computer_option == "t"
+    elif user_choice == "r" and computer_option == "t":
         print("Você ganhou!")
         user_points = user_points + 1
 
