@@ -16,6 +16,8 @@ while True:
     # 0 : R, 1 : T, 2 : P
     computer_option = options[computer_choice]
 
+    print("O computador escolheu " + computer_option)
+
     if user_choice == computer_option:
         print("Empate!")
     elif user_choice == "r" and computer_option == "t":
@@ -27,5 +29,9 @@ while True:
     elif user_choice == "t" and computer_option == "p":
         print("Você ganhou!")
         user_points = user_points + 1
+    else:
+        print("Você perdeu!")
+        computer_points = computer_points + 1
+    
 
 print ("Goodbye!")
