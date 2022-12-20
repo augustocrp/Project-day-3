@@ -12,7 +12,8 @@ while True:
     if user_choice == 'q':
         break
 
-    if user_choice in options:
+    if user_choice not in options:
+        continue
 
     computer_choice = random.randint(0, 2)
     # 0 : R, 1 : T, 2 : P
